@@ -374,3 +374,122 @@
     margin: 0px 5px;
   }
   
+  @media screen and (max-width: 1000px) {
+    .account button {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 930px) {
+    .accounts {
+      display: flex;
+      height: auto;
+      flex-wrap: wrap;
+    }
+    .account-card {
+      height: auto;
+      width: max-content;
+      margin: 1em auto;
+    }
+    .checklist {
+      display: flex;
+      justify-content: center;
+    }
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+    .profile-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 880px) {
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer .features {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .cards {
+      display: none;
+    }
+    .dark-grey {
+      display: none;
+    }
+    .call-to-action {
+      text-align: center;
+      margin-top: 30%;
+    }
+  
+  
+  }
+  @media screen and (max-width: 720px) {
+    .pricing {
+      display: none;
+    }
+    .contact {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 680px) {
+    .footer .resources {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .subscription-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .contact-us {
+      display: none;
+    }
+    /* .footer {
+      display: none;
+    } */
+    .base {
+      display: none;
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .hero-2 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .home {
+      display: none;
+    }
+    .email-div button {
+      width: 100%;
+    }
+    .header {
+      font-size: .8em;
+    }
+    .map {
+      display: none;
+    }
+    .top-description {
+      padding: 20px 10px;
+    }
+    .branches {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .footer .legal {
+      display: none;
+    }
+  }
