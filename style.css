@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  .header {
+    display: flex;
+    padding-top: 18px;
+    color: #fff;
+  }
+  .logo {
+    margin-left: 10%;
+  }
+  nav {
+    margin-left: 8%;
+  }
+  nav a {
+    color: rgb(239, 239, 239);
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .account {
+    padding-left: 20%;
+  }
+  .account a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .account button {
+    margin-left: 25px;
+    color: #fff;
+    background-color: #23a7f1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    margin-top: 10%;
+  }
+    .big-text {
+      color: #fff;
+      font-size: 3em;
+      font-weight: 900;
+    }
+    .small-text {
+      color: rgb(239, 239, 239);
+      margin-top: 25px;
+    }
+    .action-btns {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .action-btns button {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: 900;
+    }
+    #btn-1 {
+      background-color: #23a7f1;
+      margin-right: 10px;
+    }
+    #btn-2 {
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 0.1px solid #fff;
+    }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+  }
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      width: 250px;
+      /* height: 200px; */
+    }
+    .card ion-icon {
+      color: #23a7f1;
+      padding-bottom: 10px;
+    }
+    .card h2 {
+      padding-bottom: 10px;
+    }
+    .card p {
+      color: rgb(50, 50, 50);
+    }
+    .special {
+      background-color: #23a7f1;
+      color: #fff;
+    }
+    .special p {
+      color: #fff;
+    }
+    .special ion-icon {
+      color: #fff;
+    }
+  
+  .dark-grey {
+    background-color: #f7f7f7;
+    height: 25vh;
+  }
+  
+  .hero-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hero-2 p {
+    color: rgb(50, 50, 50);
+  }
+  
+  .hero-2 ion-icon {
+    color: #23a7f1;
+  }
+  
+  .hero-3 {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .intro p {
+      margin-top: 10px;
+      color: rgb(50, 50, 50);
+    }
+    .profile-cards {
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+    }
+    .profile-cards p {
+      margin: 20px 10px;
+    }
+  
+  .partners {
+    margin: 50px;
+    text-align: center;
+  }
+  .partners img {
+    margin: 5px 6%;
+  }
+  
+  .subscription {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,30,185,1) 0%, rgba(255,0,154,1) 100%);
+    margin: 0px 10%;
+    border-radius: 2px;
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+  }
+  .subscription p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .email-div {
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  .subscription input {
+    padding: .8em 2em;
+    border: none;
+    outline: none;
+    /* border-radius: 2px; */
+  }
+  .subscription button {
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+    background-color: #23a7f1;
+    color: #fff;
+  }
+  
+  .accounts {
+    display: flex;
+    justify-content:center;
+    /* background-color: aquamarine; */
+    height: 95vh;
+    margin-bottom: 5em;
+  }
+  .accounts p {
+    color: rgb(50, 50, 50);
+  }
+  .accounts button {
+    margin-top: 2em;
+    border: none;
+    padding: 1em 5em;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #23a7f1;
+  }
+  .account-card {
+    text-align: center;
+    border: 1px solid #23a7f1;
+    border-radius: 5px;
+    padding: 40px 30px;
+    height: 90%;
+  }
+  .account-card h2 {
+    margin-bottom: 30px;
+  }
+  .account-card .heading {
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .account-card .price {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #23a7f1;
+    margin-bottom: 2rem;
+  }
+    .checklist {
+      display: flex;
+      gap: .8em;
+      margin-bottom: .8em;
+    }
+    .ticked ion-icon {
+      background-color: green;
+      border-radius: 50%;
+      color: #fff;
+    }
+    .account-card-colored {
+      background-color: rgba(36,43,67,255);
+      height: 100%;
+    }
+    .account-card-colored p {
+      color: #fff;
+    }
+    .account-card-colored .gray {
+      background-color: gray;
+      border-radius: 50%;
+    }
+    .account-card-colored h2 {
+      color: #fff;
+    }
+    .lowered {
+      margin-top: 58px;
+    }
+  
+  .branches {
+    background-color: rgba(36,43,67,255);
+    height: 95vh;
+  }
+  .top-description {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: #fff;
+  }
+  .top-description h1 {
+    margin-bottom: 1em;
+  }
+  
+  .appointment {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    
+  }
+  .appointment img {
+    width: 200px;
+  }
+  .appointment-form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2em;
+  }
+  .appointment-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .appointment-form label {
+    margin-bottom: .5em;
+    font-weight: 600;
+  }
+  .appointment-form input {
+    padding: 7px 10px;
+    border-radius: 3px;
+    border: 1px solid #f7f7f7;
+    outline: none;
+    background-color: #f8f9f8;
+    margin-bottom: 15px;
+  }
+  .appointment-form select {
+    padding: 7px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #f8f9f8;
+  }
+  .appointment-form button {
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0px;
+    color: #fff;
+    background-color: #23a7f1;
+  }
+  
+  .contact-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 2em;
+    height: 60vh;
+    background-color: #f7f7f7;
+    padding-bottom: 2em;
+  }
+  .contact-us h3 {
+    margin-bottom: .5em;
+  }
+  .contact-us p {
+    color: rgb(50, 50, 50);
+  }
+  .contact-us button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 18px;
+    color: #fff;
+    background-color: #23a7f1;
+  }
+  
+  .footer {
+    margin-top: 3em;
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+  .footer h4 {
+    margin-bottom: .8em;
+  }
+  .footer p {
+    color: rgb(50, 50, 50);
+    padding-bottom: .3em;
+  }
+  .footer ion-icon {
+    color: #23a7f1;
+  }
+  
+  .base {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    background-color: #f7f7f7;
+    color: rgb(50, 50, 50);
+  }
+  .base ion-icon {
+    color: #23a7f1;
+    margin: 0px 5px;
+  }
+  
